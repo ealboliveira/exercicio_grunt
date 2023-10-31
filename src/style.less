@@ -1,0 +1,24 @@
+@primary-color: #3498db;
+@secondary-color: #e74c3c;
+
+// Estilo para um elemento de cabeçalho
+.header {
+    background-color: @primary-color;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+// Estilo para um botão
+.button {
+    background-color: @secondary-color;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+    background-color: darken(@secondary-color, 10%);
+    }
+}
